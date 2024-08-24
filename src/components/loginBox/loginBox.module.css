@@ -1,0 +1,148 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.wrapper {
+    background-color: #FCEADE;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border-top-right-radius: 75px;
+    border-bottom-left-radius: 75px;
+    box-shadow: 0px 0px 50px -26px #000000;
+}
+.rightContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7vh;
+    font-family: "Poppins";
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.email, .password {
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 34px -30px #000000;
+    width: 30vh;
+    height: 3.5vh;
+}
+.emailLabel, .pwLabel {
+    margin-top: 16px;
+    font-size: 2vh;
+    font-weight: 500;
+    outline: none;
+}
+.loginBtn {
+    margin-top: 1vh;
+    padding: 1.5vh 0;
+    width: 100%;
+    color: black;
+    border-top: 1px solid gray;
+}
+.or {
+    position: relative;
+    top: 18px;
+    background-color: #FCEADE;
+    font-size: 1.5vh;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: max-content;
+    text-align: center;
+}
+.register {
+    font-size: 1.5vh;
+    display: flex;
+    justify-self: center;
+    gap: 5px;
+    margin-top: 1vh;
+    font-style: italic;
+}
+.header {
+    font-family: "Poppins";
+    font-weight: bolder;
+    font-size: 5vh;
+    color: #ea526f;
+}
+.leftContainer {
+    padding-right: -2vh;
+    border-right: 10px solid #ffbaf8;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    width: 80vh;
+    line-height: 6vh;
+    overflow: hidden;
+    z-index: 1;
+}
+.text {
+    font-size: 10vh;
+    font-family: "CocogooseProTrial";
+    letter-spacing: 0.1px;
+    z-index: 5;
+}
+.italics {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 7vh;
+}
+.coolvetica {
+    font-family: "Coolvetica";
+}
+.write {
+    font-family: "Freight Big Pro";
+    font-weight: 100;
+}
+.trees {
+    font-family: "Minecraft";
+    font-size: 9vh;
+}
+.nice {
+    font-family: "Komigo 3D";
+    text-transform: uppercase;
+}
+.imgContainer {
+    position: relative;
+    width: 30%;
+    height: 70%;
+    bottom: 20%;
+    left: 60%;
+    z-index: -1;
+}
+.img {
+    object-fit: cover;
+    border: 2px dashed #25CED1;
+}
+.thefuck {
+    font-family: "Coolvetica";
+    font-size: 7vh;
+    text-align: center;
+    width: max-content;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+.fuck {
+    background-color: #FFE500;
+    box-shadow: -7px 15px 0px 6px #000000;
+}
+.fuck:hover {
+    transform: translateY(-10px);
+    color: #25CED1;
+}
+.submitBtn {
+    background-color: #EA526F;
+    width: 100%;
+    margin-top: 2vh;
+    padding: 1vh;
+    border-radius: 40px;
+    color: white;
+    font-family: "Poppins";
+    font-size: 2.5vh;
+}

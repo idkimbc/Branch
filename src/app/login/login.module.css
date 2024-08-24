@@ -1,0 +1,57 @@
+.container {
+    background-color: #FFE500;
+    height: 100vh;
+    overflow: hidden;
+}
+.bodyText {
+    font-family: "Margin DEMO";
+    font-size: 100px;
+    line-height: 10vh;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: #FF50F8;
+    opacity: 63%;
+    animation-name: moving;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes moving {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.oppDir {
+    font-family: "Margin DEMO";
+    font-size: 100px;
+    line-height: 10vh;
+    color: #FF50F8;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 63%;
+    animation-name: movingOpp;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes movingOpp {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+.box {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+}
